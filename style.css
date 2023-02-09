@@ -1,0 +1,79 @@
+body {
+  /* background-color: #9befe9; */
+  background-color: white;
+  font-family: monospace, 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  color: #292F36;
+}
+
+#profile-picture {
+  width: 130px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #ff6b6b;
+  font-size: 1.2rem;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #4ECDC4
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  width: 45%;
+  box-shadow: 3px 5px 30px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+#introduction {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fa-brands {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
